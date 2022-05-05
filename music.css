@@ -1,0 +1,140 @@
+body{
+	font-family:calibri;
+	font-size:16px;
+	line-height:2;
+	background:linear-gradient(#000000,#0a0a66,#a714a3);
+}
+
+.header{
+	width:100%;
+	position:fixed;
+	margin:0 auto;
+	
+	background-color:black;
+	
+	border:2px;
+	border-style:solid;
+	border-color:white;
+	
+	font-weight:600;
+	
+	padding:3px 10px;
+	
+	display:flex;
+
+	z-index: 100;
+}
+
+a{
+	text-decoration:none;
+}
+
+.logo{
+	font-family:haettenschweiler;
+	font-size:30px;
+	font-weight:500;
+	position:relative;
+	margin:0 15px 0 6px;
+	color:#9902b9;
+}
+
+.nav{
+	text-transform:uppercase;
+}
+
+.a{
+	display:inline-block;
+	color:#9902b9;
+	margin:13px 15px;
+	
+	transition:0.1s linear;
+}
+
+.a:hover{
+	color:#d438f5;
+}
+
+.intro{
+	width:100%;
+	height:100vh;
+
+	background-image: url("music.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title{
+	font-family: montserrat;
+	font-size: 90px;
+	color: white;
+	text-align: center;
+}
+
+.block{
+	width: 90%;
+
+	margin: 0 auto;
+	margin-top: 25px; 
+	margin-bottom: 24px;  
+}
+
+.img{
+	width: 100%;
+}
+
+p{
+	color: white;
+	font-size: 20px;
+}
+
+h3{
+	color: white;
+	font-size: 40px;
+}
+
+h4{
+	color: white;
+	font-size: 25px;
+}
+
+.small_cont{
+	max-width: 60%;
+	border-radius: 15px;
+	overflow: hidden;
+	margin:15px 0;
+}
+
+audio{
+	margin: 15px 0;
+	width: 100%;
+}
+
+footer{
+	width: 100%;
+	background-color: #404040;
+	padding: 15px 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.supp_block{
+	width: 40%;
+}
+
+.supp{
+	font-size: 17px;
+	color: #cbcbcb;
+	display: inline-block;
+}
+
+.social{
+
+}
+
+.asocial{
+	color: #cbcbcb;
+}

@@ -1,0 +1,60 @@
+body{
+	font-family:calibri;
+	font-size:16px;
+	line-height:2;
+	background-color:black;
+}
+
+.header{
+	width:100%;
+	position:relative;
+	margin:0 auto;
+	
+	background-color:black;
+	
+	border:2px;
+	border-style:solid;
+	border-color:white;
+	
+	font-weight:600;
+	
+	padding:3px 10px;
+	
+	display:flex;
+}
+
+.logo{
+	font-family:haettenschweiler;
+	font-size:30px;
+	font-weight:500;
+	position:relative;
+	margin:0 15px 0 4px;
+	color:white;
+}
+
+.nav{
+	text-transform:uppercase;
+}
+
+a{
+	display:inline-block;
+	text-decoration:none;
+	color:white;
+	margin:13px 15px;
+	
+	transition:0.1s linear;
+}
+
+a:hover{
+	color:grey;
+}
+
+.cont{
+	width:100%;
+	margin:0 auto;
+}
+
+img{
+	width:100%;
+	margin:0 auto;
+}
