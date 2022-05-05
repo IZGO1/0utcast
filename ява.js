@@ -10,7 +10,7 @@ const player = document.querySelector('.player'),
 		cover = document.querySelector('.cover')
 
 
-const songs = ['Выдыхай - Noize MC','Вояджер-1 - Noize MC','Столетняя война - Noize MC','26.04 - Noize MC','Noize MC — Иордан (Feat. Atlantida Project)','Переплетено - Oxxxymiron','Пантеллерия - Oxxxymiron','Jungle joyride - Sonic Unleashed (Day)','Cool edge - Sonic Unleashed (Night)','Werehog battle theme - Sonic Unleashed','Rules of nature - Metal Gear Rising','The Stains of Time - Metal Gear Rising','The Only Thing I Know For Real - Metal Gear Rising']
+const songs = ['Выдыхай - Noize MC','Вояджер-1 - Noize MC','Столетняя война - Noize MC','26.04 - Noize MC','Noize MC — Иордан (Feat. Atlantida Project)','KERRIGAN - Pyrokinesis','В небо коза ёмоё - Pyrokinesis','Цветами радуги - Pyrokinesis','Pyrokinesis – 31006 (feat. DAKOOKA)','Агент - Oxxxymiron','Переплетено - Oxxxymiron','Пантеллерия - Oxxxymiron','Jungle joyride - Sonic Unleashed (Day)','Cool edge - Sonic Unleashed (Night)','Werehog battle theme - Sonic Unleashed','Rules of nature - Metal Gear Rising','The Stains of Time - Metal Gear Rising','The Only Thing I Know For Real - Metal Gear Rising','String Theocracy - Mili','The Only Thing They Fear Is You - Mick Gordon & Chad Mossholder']
 
 let songIndex = 0
 
@@ -48,7 +48,7 @@ play.addEventListener('click', () => {
 function nextSong() {
 	songIndex++
 
-	if (songIndex > 12) {
+	if (songIndex > songs.length - 1) {
 		songIndex = 0
 	}
 	
@@ -60,7 +60,7 @@ next.addEventListener('click', nextSong)
 
 function prevSong(){
 	if(songIndex==0){
-		songIndex=13
+		songIndex=songs.length 
 	}
 	songIndex--
 	loadSong(songs[songIndex])
